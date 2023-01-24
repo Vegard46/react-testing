@@ -1,3 +1,45 @@
 .profile-card {
+    /*background-image: linear-gradient(to bottom right, #f171ee,#b535b3);*/
+    background: white;
+    display: inline-flex;
+    border-radius: 5px;
+    height: 28vh;
+    transition: .3s ease-out;
+}
 
+.profile-card-left {
+    width: 50%;
+}
+.profile-card-left h1 {
+    height: 30%;
+    margin: 10% 10% 5% 10%;
+    border-radius: 5px 0 0 0;
+    color: #270c36;
+    border-bottom: solid 2px #270c36;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 10%;
+}
+.profile-card-left p {
+    height: 70%;
+    border-radius: 0 0 0 5px;
+    background: none;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size: 12px;
+    font-style: italic;
+    color: #270c36;
+}
+
+.profile-card-right {
+    width: 50%;
+    background-image: linear-gradient(to bottom right, #f171ee,#b535b3);
+    border-radius: 0 5px 5px 0;
+}
+
+.profile-card-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 5px 5px 0;
 }
