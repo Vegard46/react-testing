@@ -8,7 +8,7 @@ type ProfileCardProps = {
 
 function ProfileCard(props: ProfileCardProps){
     return (
-        <div className={'profile-card hoverable'}>
+        <div className={'profile-card hoverable'} onClick={() => console.log("Clicked!")}>
             <div className="profile-card-left">
                 <h1>{props.title}</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.

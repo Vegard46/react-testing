@@ -1,14 +1,18 @@
 .profile-card {
     /*background-image: linear-gradient(to bottom right, #f171ee,#b535b3);*/
     background: white;
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     border-radius: 5px;
     height: 28vh;
     transition: .3s ease-out;
 }
 
 .profile-card-left {
-    width: 50%;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    grid-column: 1;
 }
 .profile-card-left h1 {
     height: 30%;
@@ -32,7 +36,10 @@
 }
 
 .profile-card-right {
-    width: 50%;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    grid-column: 2;
     background-image: linear-gradient(to bottom right, #f171ee,#b535b3);
     border-radius: 0 5px 5px 0;
 }
