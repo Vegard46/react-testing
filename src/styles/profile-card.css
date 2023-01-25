@@ -3,9 +3,8 @@
     background: white;
     display: grid;
     grid-template-columns: 50% 50%;
-    border-radius: 5px;
     height: 28vh;
-    transition: .3s ease-out;
+    transition: all .2s cubic-bezier(0.1, 0.6, 0.0, 0.8);
 }
 
 .profile-card-left {
@@ -17,7 +16,6 @@
 .profile-card-left h1 {
     height: 30%;
     margin: 10% 10% 5% 10%;
-    border-radius: 5px 0 0 0;
     color: #270c36;
     border-bottom: solid 2px #270c36;
     font-weight: bolder;
@@ -26,13 +24,14 @@
 }
 .profile-card-left p {
     height: 50%;
-    border-radius: 0 0 0 5px;
     background: none;
     padding-left: 10%;
     padding-right: 5%;
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
     color: #270c36;
+    font-weight: bold;
+    opacity: .6;
 }
 
 .profile-card-right {
@@ -40,7 +39,6 @@
     padding: 0 !important;
     width: 100%;
     grid-column: 2;
-    border-radius: 0 5px 5px 0;
     position: relative;
 }
 
@@ -48,17 +46,20 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom right, #f171ee,#b535b3);
     transition: .2s ease-out;
     z-index: 10;
-    border-radius: 0 5px 5px 0;
 }
+#image-js{background-image: linear-gradient(to bottom right, #f1d771,#b535b3);}
+#image-java{background-image: linear-gradient(to bottom right, #f1717c,#b535b3);}
+#image-py{background-image: linear-gradient(to bottom right, #f1c471,#b535b3);}
+#image-kt{background-image: linear-gradient(to bottom right, #718ff1,#b535b3);}
+#image-html{background-image: linear-gradient(to bottom right, #71f18b,#b535b3);}
+#image-cs{background-image: linear-gradient(to bottom right, #b771f1,#b535b3);}
 
 .profile-card-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 0 5px 5px 0;
 }
 
 .profile-card-arrow {

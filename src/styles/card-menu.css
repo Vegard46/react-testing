@@ -4,4 +4,5 @@
     grid-template-columns: 30% 30% 30%;
     grid-row-gap: 10%;
     grid-column-gap: 5%;
+    transition: all .2s ease-out;
 }

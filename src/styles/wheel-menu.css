@@ -1,0 +1,68 @@
+
+.wheel-menu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+}
+
+.wheel-piece {
+    width: 15vw;
+    height: 15vw;
+    background-image: linear-gradient(to bottom right, #b535b3, #f171ee);
+    color: #270c36;
+    transition: all .2s ease-out;
+}
+.wheel-piece:hover {
+    transform: scale(1.3);
+    color: white;
+}
+
+#up-left-piece{
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 100% 0 0 0;
+    padding: 15% 0 0 15%;
+    transform-origin: 100% 100%;
+}
+#up-left-piece:hover {
+    border-top: 2vw solid white;
+    border-left: 2vw solid white;
+}
+
+#up-right-piece{
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 0 100% 0 0;
+    padding: 15% 15% 0 0;
+    transform-origin: 0 100%;
+}
+#up-right-piece:hover {
+    border-top: 2vw solid white;
+    border-right: 2vw solid white;
+}
+
+#down-left-piece{
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 0 0 0 100%;
+    padding: 0 0 15% 15%;
+    transform-origin: 100% 0;
+}
+#down-left-piece:hover {
+    border-bottom: 2vw solid white;
+    border-left: 2vw solid white;
+}
+
+#down-right-piece{
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 0 0 100% 0;
+    padding: 0 15% 15% 0;
+    transform-origin: 0 0;
+}
+#down-right-piece:hover {
+    border-bottom: 2vw solid white;
+    border-right: 2vw solid white;
+}

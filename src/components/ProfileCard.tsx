@@ -1,23 +1,27 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import '../styles/profile-card.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { solid, regular, brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 type ProfileCardProps = {
+    id: string,
     image: any,
     title: string
 }
 
 function ProfileCard(props: ProfileCardProps){
+
+    const navigate = useNavigate();
+
     return (
-        <div className={'profile-card hoverable'} onClick={() => console.log("Clicked!")}>
+        <div className={'profile-card hoverable'} onClick={() => navigate("/languages/" + props.id)}>
             <div className="profile-card-left">
                 <h1>{props.title}</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Curabitur nec enim.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div className="profile-card-right">
-                <div className="profile-card-image">
+                <div className="profile-card-image" id={"image-" + props.id}>
                     <img src={props.image} alt="js" />
                 </div>
                 <div className="profile-card-arrow">
