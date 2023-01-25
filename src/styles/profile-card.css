@@ -25,7 +25,7 @@
     padding-top: 10%;
 }
 .profile-card-left p {
-    height: 70%;
+    height: 50%;
     border-radius: 0 0 0 5px;
     background: none;
     padding-left: 10%;
@@ -40,13 +40,34 @@
     padding: 0 !important;
     width: 100%;
     grid-column: 2;
+    border-radius: 0 5px 5px 0;
+    position: relative;
+}
+
+.profile-card-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
     background-image: linear-gradient(to bottom right, #f171ee,#b535b3);
+    transition: .2s ease-out;
+    z-index: 10;
     border-radius: 0 5px 5px 0;
 }
 
-.profile-card-right img {
+.profile-card-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 0 5px 5px 0;
+}
+
+.profile-card-arrow {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
