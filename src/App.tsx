@@ -3,8 +3,9 @@ import './styles/App.css';
 import CardMenu from "./components/CardMenu";
 import WheelMenu from "./components/WheelMenu";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import JavaScriptDetail from "./components/JavaScriptDetail";
+import WebDevDetail from "./components/WebDevDetail";
 import NavBar from "./components/NavBar";
+import ProjectPage from "./components/ProjectPage";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
                     <Route index element={<WheelMenu/>}/>
                     <Route path="nav" element={<NavBar/>}>
                         <Route path="languages" element={<CardMenu/>}/>
-                        <Route path="languages/js" element={<JavaScriptDetail/>}/>
+                        <Route path="languages/js" element={<WebDevDetail/>}/>
+                        <Route path="projects" element={<ProjectPage/>} />
                     </Route>
                 </Route>
             </Routes>

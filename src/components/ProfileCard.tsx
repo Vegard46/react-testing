@@ -21,7 +21,7 @@ function ProfileCard(props: ProfileCardProps){
                 <p>Lorem ipsum dolor sit amet.</p>
             </div>
             <div className="profile-card-right">
-                <div className="profile-card-image" id={"image-" + props.id}>
+                <div className={"profile-card-image image-" + props.id}>
                     <img src={props.image} alt="js" />
                 </div>
                 <div className="profile-card-arrow">

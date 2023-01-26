@@ -1,5 +1,4 @@
 .App {
-  background-image: linear-gradient(to bottom right, #270c36, #822a94);
   width: 100vw;
   height: 100vh;
 }
@@ -27,5 +26,9 @@
 
 .item-gradient {
   color: #270c36;
+}
+
+.hidden-container {
+  overflow: hidden;
 }
 

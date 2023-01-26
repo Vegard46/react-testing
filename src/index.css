@@ -3,6 +3,7 @@ body {
   font-family: 'Lato',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to bottom right, #270c36, #822a94);
 }
 
 code {

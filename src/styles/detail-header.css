@@ -1,0 +1,41 @@
+.detail-header {
+    background: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 55vh;
+    width: 75vw;
+    overflow: hidden;
+}
+.header-section {
+    padding: 4% 5% 4% 5%;
+}
+
+.header-left {
+    width: 100%;
+    grid-column: 1;
+}
+.header-title {
+    color: #270c36;
+    border-bottom: solid 2px #270c36;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+}
+.header-left p {
+    font-size: 16px;
+    font-style: italic;
+    color: #270c36;
+    font-weight: bold;
+    opacity: .6;
+}
+
+.header-right {
+    width: 100%;
+    grid-column: 2;
+    position: relative;
+}
+
+.skill-items {
+
+}

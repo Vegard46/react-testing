@@ -1,0 +1,38 @@
+
+.small-skill {
+    background: #52226d;
+    display: inline-flex;
+    height: 30px;
+    border: solid 2px #822a94;
+    border-radius: 50px;
+    width: max-content;
+    padding-right: 4%;
+    margin-right: 2%;
+}
+
+.small-skill-left {
+    position: relative;
+    width: 100%;
+}
+
+.small-skill-right {
+    width: 100%;
+}
+.small-skill-right h1 {
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.small-skill-image {
+    position: relative;
+    width: 26px;
+    height: 26px;
+}
+.small-skill-image img {
+    width: 26px;
+    height: 26px;
+    border-radius: 44px;
+}

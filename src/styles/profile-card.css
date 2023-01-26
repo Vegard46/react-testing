@@ -49,12 +49,12 @@
     transition: .2s ease-out;
     z-index: 10;
 }
-#image-js{background-image: linear-gradient(to bottom right, #f1d771,#b535b3);}
-#image-java{background-image: linear-gradient(to bottom right, #f1717c,#b535b3);}
-#image-py{background-image: linear-gradient(to bottom right, #f1c471,#b535b3);}
-#image-kt{background-image: linear-gradient(to bottom right, #718ff1,#b535b3);}
-#image-html{background-image: linear-gradient(to bottom right, #71f18b,#b535b3);}
-#image-cs{background-image: linear-gradient(to bottom right, #b771f1,#b535b3);}
+.image-js{background-image: linear-gradient(to bottom right, #f1d771,#b535b3);}
+.image-java{background-image: linear-gradient(to bottom right, #f1717c,#b535b3);}
+.image-py{background-image: linear-gradient(to bottom right, #f1c471,#b535b3);}
+.image-kt{background-image: linear-gradient(to bottom right, #718ff1,#b535b3);}
+.image-html{background-image: linear-gradient(to bottom right, #71f18b,#b535b3);}
+.image-cs{background-image: linear-gradient(to bottom right, #b771f1,#b535b3);}
 
 .profile-card-image img {
     width: 100%;

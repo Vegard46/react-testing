@@ -16,7 +16,7 @@ function WheelMenu (props: any) {
             <button id="up-right-piece" className="wheel-piece">
                 <FontAwesomeIcon icon={solid('cubes')} size="5x"/>
             </button>
-            <button id="down-left-piece" className="wheel-piece">
+            <button id="down-left-piece" className="wheel-piece" onClick={() => navigate("nav/projects")}>
                 <FontAwesomeIcon icon={solid('sitemap')} size="5x"/>
             </button>
             <button id="down-right-piece" className="wheel-piece">
