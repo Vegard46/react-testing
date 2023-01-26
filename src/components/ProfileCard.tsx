@@ -15,7 +15,7 @@ function ProfileCard(props: ProfileCardProps){
     const navigate = useNavigate();
 
     return (
-        <div className={'profile-card hoverable'} onClick={() => navigate("/languages/" + props.id)}>
+        <div className={'profile-card hoverable'} onClick={() => navigate(props.id)}>
             <div className="profile-card-left">
                 <h1>{props.title}</h1>
                 <p>Lorem ipsum dolor sit amet.</p>

@@ -1,0 +1,30 @@
+
+.navbar {
+    margin-left: 12.5vw;
+    padding-top: 6%;
+}
+
+.navbar-items {
+    display: flex;
+}
+
+.navlink {
+    display: flex;
+}
+
+.navlink p {
+    color: white;
+    padding: 3px 5px 3px 5px;
+}
+.navlink-link {
+    color: white;
+    background-color: #52226d;
+    padding: 3px 12px 3px 12px;
+    border-radius: 5px;
+    transition: all .2s ease-out;
+}
+.navlink-link:hover {
+    color: #52226d;
+    background-color: white;
+}
+

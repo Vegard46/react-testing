@@ -4,6 +4,7 @@ import CardMenu from "./components/CardMenu";
 import WheelMenu from "./components/WheelMenu";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import JavaScriptDetail from "./components/JavaScriptDetail";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
             <Routes>
                 <Route path="/">
                     <Route index element={<WheelMenu/>}/>
-                    <Route path="languages" element={<CardMenu/>}/>
-                    <Route path="languages/js" element={<JavaScriptDetail/>}/>
+                    <Route path="nav" element={<NavBar/>}>
+                        <Route path="languages" element={<CardMenu/>}/>
+                        <Route path="languages/js" element={<JavaScriptDetail/>}/>
+                    </Route>
                 </Route>
             </Routes>
         </BrowserRouter>

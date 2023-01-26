@@ -10,7 +10,7 @@ function WheelMenu (props: any) {
 
     return (
         <div className={'wheel-menu center'}>
-            <button id="up-left-piece" className="wheel-piece" onClick={() => navigate("languages")}>
+            <button id="up-left-piece" className="wheel-piece" onClick={() => navigate("nav/languages")}>
                 <FontAwesomeIcon icon={solid('bar-chart')} size="5x"/>
             </button>
             <button id="up-right-piece" className="wheel-piece">
